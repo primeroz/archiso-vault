@@ -9,9 +9,9 @@ bx
 haveged
 
 warpwallet
-walletgenerator
+# DONE walletgenerator
 
-script to download electrum electron-cash check signs and other github stuff
+# DONE script to download electrum electron-cash check signs and other github stuff
 
 tomb
 gopass
