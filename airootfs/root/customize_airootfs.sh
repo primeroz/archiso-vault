@@ -42,5 +42,6 @@ mmaker openbox3
 
 #sed -i 's/^.*current_theme.*/current_theme flat/' /etc/slim.conf
 
+systemctl enable haveged.service
 systemctl enable slim.service
 systemctl set-default graphical.target
