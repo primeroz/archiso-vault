@@ -12,6 +12,16 @@ BX_SHA256="55f356f75c118df961e0442d0776f1d71e0b9e91936b1d9b96934f5eba167f0c"
 WALLETGENERATOR_GH="https://github.com/MichaelMure/WalletGenerator.net.git"
 WALLETGENERATOR_TAG="v2017.09.02"
 
+IANBIP39_GH="https://github.com/iancoleman/bip39.git"
+IANBIP39_TAG="0.2.7"
+
+WARP_GH="https://github.com/keybase/warpwallet.git"
+WARP_TAG="v1.0.8"
+
+COINBIN_GH="https://github.com/OutCast3k/coinbin.git"
+COINBIN_TAG="1.3"
+
+
 #Set Colors https://natelandau.com/bash-scripting-utilities/                                                        
 #                                                                                                                   
                                                                                                                     
@@ -90,4 +100,7 @@ getgithub_tag electrum $ELECTRUM_GH $ELECTRUM_TAG
 getgithub_tag electroncash $ELECTRONCASH_GH $ELECTRONCASH_TAG
 getgithub_tag walletgenerator $WALLETGENERATOR_GH $WALLETGENERATOR_TAG
 
+getgithub_tag bip39 $IANBIP39_GH $IANBIP39_TAG
+getgithub_tag warpwallet $WARP_GH $WARP_TAG
+getgithub_tag coinbin $COINBIN_GH $COINBIN_TAG
 
