@@ -35,10 +35,10 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 rm /usr/share/xsessions/openbox-kde.desktop
 
 echo 'setxkbmap -layout "gb"' > /home/live/.xinitrc
+echo 'mmaker -f OpenBox3' > /home/live/.xinitrc
 echo 'exec $1' >> /home/live/.xinitrc
 chown live:live /home/live/.xinitrc
 
-mmaker openbox3
 
 #sed -i 's/^.*current_theme.*/current_theme flat/' /etc/slim.conf
 

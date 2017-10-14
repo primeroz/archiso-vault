@@ -102,10 +102,10 @@ numix-themes-archblue
 numix-gtk-theme
 idesk
 lxappearance-obconf-gtk3
-obconf
+#obconf
 obkey
-obmenu
-obmenu-generator
+#obmenu
+#obmenu-generator
 oblogout
 openbox-themes
 wicd
