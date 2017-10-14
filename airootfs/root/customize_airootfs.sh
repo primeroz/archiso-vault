@@ -34,10 +34,11 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 rm /usr/share/xsessions/openbox-kde.desktop
 
-echo 'exec $1' > /home/live/.xinitrc
+echo 'setxkbmap -layout "gb"' > /home/live/.xinitrc
+echo 'exec $1' >> /home/live/.xinitrc
 chown live:live /home/live/.xinitrc
 
-sed -i 's/^.*current_theme.*/current_theme flat/' /etc/slim.conf
+#sed -i 's/^.*current_theme.*/current_theme flat/' /etc/slim.conf
 
 systemctl enable slim.service
 systemctl set-default graphical.target
