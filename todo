@@ -1,0 +1,49 @@
+add 
+
+python2-trezor and others
+
+qrencode
+ssss
+gfsplit
+bx
+haveged
+
+warpwallet
+walletgenerator
+
+script to download electrum electron-cash check signs and other github stuff
+
+tomb
+gopass
+mausoleum
+
+custom aur repo
+
+tor-proxy
+privoxy
+
+tor-proxy kernel module
+
+documetnation
+ - bx
+ - others
+
+gitignore for opt
+
+FUTURE:
+
+ - Theming
+   - Slim
+   - openbox
+   - bootloader
+
+ - no network boot 
+   - also no bluetooth
+   - no camera
+   - no mic
+
+ - wipe safe memory on shutdown
+
+ - sign customrepo
+ - sign sfs
+
