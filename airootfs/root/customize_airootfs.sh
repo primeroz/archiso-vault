@@ -38,6 +38,8 @@ echo 'setxkbmap -layout "gb"' > /home/live/.xinitrc
 echo 'exec $1' >> /home/live/.xinitrc
 chown live:live /home/live/.xinitrc
 
+mmaker openbox3
+
 #sed -i 's/^.*current_theme.*/current_theme flat/' /etc/slim.conf
 
 systemctl enable slim.service
