@@ -70,6 +70,10 @@ python2-pyaes
 python2-pycurl
 python2-pyqt4
 python2-pysocks
+python2-requests
+python2-dnspython
+python2-pysocks
+python2-pycryptodomex
 python2-qrcode
 python2-mnemonic
 python2-trezor
@@ -139,3 +143,5 @@ zathura-pdf-mupdf
 pcsc-tools
 ccid
 libusb-compat
+ranger
+pcmanfm-gtk3
