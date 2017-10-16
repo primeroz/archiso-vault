@@ -300,7 +300,7 @@
 
   <!-- Keybindings for running applications -->
   <keybind key="A-d">
-    <action name="Execute"><command>dmenu_path | dmenu</command></action>
+	  <action name="Execute"><execute>/usr/local/bin/obdmenu</execute></action>
   </keybind>
   <keybind key="W-e">
     <action name="Execute">
