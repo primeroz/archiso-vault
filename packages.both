@@ -133,6 +133,7 @@ python-qrencode
 keepassxc
 chromium
 ssss
+scrypt
 libgfshare
 tomb-git
 tomb-kdf-git
