@@ -299,8 +299,8 @@
   </keybind>
 
   <!-- Keybindings for running applications -->
-  <keybind key="C-d">
-    <action name="Execute"><command>dmenu</command></action>
+  <keybind key="A-d">
+    <action name="Execute"><command>dmenu_path | dmenu</command></action>
   </keybind>
   <keybind key="W-e">
     <action name="Execute">
